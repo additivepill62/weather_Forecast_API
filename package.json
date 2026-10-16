@@ -1,38 +1,19 @@
 {
-  "name": "weather_Forecast_API",
+  "name": "weather-forecast-backend",
   "version": "1.0.0",
-  "description": "NodeJS backend API for weather_Forecast_APP",
+  "description": "Weather forecast app - Node.js / Express / MySQL backend",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/additivepill62/weather_Forecast_API.git"
-  },
-  "keywords": [
-    "NodeJS",
-    "backend",
-    "API",
-    "MySQL"
-  ],
-  "author": "GYDG",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/additivepill62/weather_Forecast_API/issues"
-  },
-  "homepage": "https://github.com/additivepill62/weather_Forecast_API#readme",
   "dependencies": {
-    "cors": "^2.8.6",
-    "dotenv": "^18.0.4",
-    "express": "^5.2.1",
-    "mysql": "^2.18.1",
-    "regex": "^6.1.0",
-    "sha1": "^1.1.1"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.4"
   }
 }
